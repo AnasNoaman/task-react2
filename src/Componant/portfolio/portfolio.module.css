@@ -1,6 +1,7 @@
 .imgw{
     width: 400px;
     height: 288px;
+    object-fit: cover;
     
 }
 h2{
