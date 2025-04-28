@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import style from './Portfolio.module.css'
 import img1 from '../../assets/cabin.png'
 import img2 from '../../assets/cake.png'
@@ -7,6 +7,7 @@ import img4 from '../../assets/game.png'
 import img5 from '../../assets/safe.png'
 import img6 from '../../assets/submarine.png'
 export default function Portfolio() {
+  
   return (
     <section className="py-5">
         
@@ -43,5 +44,6 @@ export default function Portfolio() {
         </div>
        
     </section>
+   
   )
 }
